@@ -1,4 +1,4 @@
-## Copyright Notice
+# Copyright Notice
 
 © depozitS, 2025. All rights reserved.
 

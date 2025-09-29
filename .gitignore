@@ -1,0 +1,46 @@
+# ========================
+# Rust (Bevy)
+# ========================
+axiom/target/
+
+# ========================
+# C++ (Visual Studio)
+# ========================
+AxGraph/**/*.suo
+AxGraph/**/*.user
+AxGraph/**/*.userosscache
+AxGraph/**/*.sln.docstates
+AxGraph/**/x64/
+AxGraph/**/Debug/
+AxGraph/**/Release/
+AxGraph/**/*.ilk
+AxGraph/**/*.pdb
+AxGraph/**/*.obj
+AxGraph/**/*.exe
+AxGraph/**/*.dll
+AxGraph/**/*.lib
+AxGraph/**/*.exp
+AxGraph/**/*.ipdb
+AxGraph/**/*.iobj
+
+# Visual Studio IntelliSense
+AxGraph/**/*.VC.db
+AxGraph/**/*.VC.VC.opendb
+
+# ========================
+# OS & Editors
+# ========================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+
+# IDE
+.vs/
+.vscode/settings.json    # ← закомментируй, если хочешь коммитить настройки VS Code
+.idea/
+
+# OTHER
+TODO.md

@@ -1,2 +1,14 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Игнорировать Makefile-подобные файлы, если они не нужны
+AxGraph/**/*.sln linguist-language=Visual Studio Solution
+AxGraph/**/*.vcxproj linguist-language=XML
+
+# Игнорировать DTrace-файлы (если они из зависимостей)
+*.d linguist-vendored=true
+
+# Игнорировать всё в target/ (если вдруг попало)
+axiom_bevy/target/** linguist-vendored=true
+
+# Явно указать, что это Rust-проект
+axiom_bevy/**/*.rs linguist-language=Rust

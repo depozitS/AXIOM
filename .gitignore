@@ -1,7 +1,7 @@
 # ========================
 # Rust (Bevy)
 # ========================
-axiom_bevy/
+axiom_bevy/target/
 
 # ========================
 # C++ (Visual Studio)

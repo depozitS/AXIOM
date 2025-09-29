@@ -2,7 +2,7 @@
 # Rust (Bevy)
 # ========================
 axiom_bevy/target/
-config/
+config
 
 # ========================
 # C++ (Visual Studio)
